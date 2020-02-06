@@ -1,3 +1,27 @@
+/* 
+    Reset default CSS properties
+    http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form,  footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
 body {
     /* Old browsers */
     background: #141E30;
@@ -14,6 +38,38 @@ body {
 
   a {
       color: whitesmoke;
+  }
+
+  header {
+      background-image: url("img/planet-placeholder.jpg");
+      background-size: cover;
+      height: 600px;
+  }
+
+  header h1 {
+      text-align: center;
+      padding-top: 200px;
+  }
+
+  nav li {
+      float: right;
+      list-style: none;
+      margin: 20px;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #black;
+  }
+
+  h1 {
+      font-size: 60px;
+  }
+
+  .tag-line {
+    font-size: 32px;
+    text-align: center;
   }
 
   
