@@ -1,24 +1,10 @@
 /* 
-    Reset default CSS properties
-    http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
+  Basic reset including border-box implementation
 */
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form,  footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 
@@ -54,6 +40,7 @@ body {
   header h1 {
       text-align: center;
       padding-top: 180px;
+      font-family: "Space Mono", sans-serif;
   }
 
   nav li {
@@ -107,3 +94,5 @@ body {
       display: inline;
       margin: 5%;
   }
+
+  
