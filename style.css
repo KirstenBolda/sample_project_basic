@@ -16,7 +16,7 @@ body {
     padding: 0;
 
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
+    color: black;
   }
 
   a {
@@ -40,6 +40,7 @@ body {
       text-align: center;
       padding-top: 180px;
       font-family: "Space Mono", sans-serif;
+      color: whitesmoke;
   }
 
   nav li {
@@ -105,9 +106,9 @@ section {
     text-align: center;
 }
 
-.features h2, .features p, .tours h2, .tours p {
+/* .features h2, .features p, .tours h2, .tours p {
     color: black;
-}
+} */
 
 .item {
     width: 23%;
