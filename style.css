@@ -94,6 +94,16 @@ section {
     margin: 0 auto;
     background-color: whitesmoke;
     text-align: center;
+    min-height: 400px;
+}
+
+.features {
+    
+}
+
+ .tours {
+    background-color: rgb(216, 216, 216);
+    height: 460px;
 }
 
 .item {
@@ -102,15 +112,28 @@ section {
 	margin: 1%;
 }
 
-section {
-    width: 100%;
-    margin: 0 auto;
-    background-color: whitesmoke;
-    text-align: center;
-}
-
 .trip {
     width: 29.3%;
 	float: left;
 	margin: 2%;
+}
+
+.headshot {
+    width: 20%;
+    float: left;
+    margin: 2%;
+    border-radius: 100%;
+}
+
+.headshot-img {
+    border-radius: 100%;
+}
+
+.clear {
+    clear: left;}
+
+.quote {
+    width: 60%;
+    float: left;
+    margin: 2% 14% 2% 2%;
 }
