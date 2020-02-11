@@ -56,6 +56,10 @@ body {
     
   }
 
+  li a:hover {
+      color: rgb(249, 139, 80);
+  }
+
   h1 {
       font-size: 60px;
       letter-spacing: 1px;
@@ -63,6 +67,11 @@ body {
 
   h2 {
     font-family: "Space Mono", sans-serif;
+    font-size: 2em;
+  }
+
+  h3 {
+    font-size: 1.6em; 
   }
 
   .tag-line {
@@ -103,7 +112,7 @@ section {
 
  .tours {
     background-color: rgb(216, 216, 216);
-    height: 460px;
+    height: 520px;
 }
 
 .item {
@@ -136,4 +145,5 @@ section {
     width: 60%;
     float: left;
     margin: 2% 14% 2% 2%;
+    text-align: left;
 }
