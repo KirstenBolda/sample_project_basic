@@ -1,0 +1,226 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0 10%;
+    font-size: 16px;
+    background-image: url("dot-grid.png"); 
+    color: #01161e;
+  
+  }
+  /* Background pattern from Toptal Subtle Patterns */
+  h1 {
+    font-family: "Space Mono", sans-serif;
+    text-align: center;
+    font-size: 3em;
+  }
+  
+  h2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 2.5em;
+    line-height: 40px;
+  }
+  
+  h3 {
+    font-family: 'Lato', sans-serif;
+    font-size: 2em;
+    font-weight: 300;
+  
+  }
+  
+  hr {
+      border: none;
+      height:50px;
+      background:url('img/flourish-lower.svg') no-repeat top center;
+  }
+  .container {
+    border: 8px solid #828a95;
+    padding: 10px;
+    margin: 10px auto;
+    background-color: rgba(255, 255, 255, 0.5);
+  
+  }
+  
+  .color-container h3 {
+    width: 100%;
+    text-align: center;
+  }
+  
+  .color-panel {
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    margin: 2%;
+    min-height: 100px;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    -webkit-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 2px 4px 10px 1px rgba(0,0,0,0.5);
+  }
+  
+  .color-label {
+    margin-top: 50px;
+  }
+  
+  .color-desc {
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  
+  .honeydew {
+    background-color: #f0f7ee;
+    color: #01161e;
+  }
+  
+  .roman-silver {
+    background-color: #828a95;
+    color: #f0f7ee;
+  }
+  
+  .arsenic {
+    background-color: #384d48;
+    color: #f0f7ee;
+  }
+  
+  .eagle-green {
+    background-color: #124559;
+    color: #f0f7ee;
+  }
+  
+  .rich-black {
+    background-color: #01161e;
+    color: #f0f7ee;
+  }
+  
+  .tomato {
+    background-color: #f06543;
+    color: #f0f7ee;
+  }
+  
+  .cedar {
+    background-color: #c05746;
+    color: #f0f7ee;
+  }
+  
+  .font-container {
+  
+  }
+  
+  .narrow-container {
+    width: 60%;
+    margin: auto;
+  }
+  
+  .font-panel {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .font-label {
+    font-size: 20px;
+    text-decoration: underline;
+  }
+  
+  .regular {
+    font-style: normal;
+  }
+  
+  .italic {
+    font-style: italic;
+  }
+  
+  .bold {
+    font-weight: 700;
+  }
+  
+  .extra-bold {
+    font-weight: 800;
+  }
+  
+  .light {
+    font-weight: 300;
+  }
+  
+  
+  
+  .open-sans, li {
+    font-family: 'Open Sans', sans-serif;
+  }
+  
+  .fredericka {
+    font-family: 'Fredericka the Great', cursive;
+  }
+  
+  .lato {
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .text-panel h1 {
+    font-size: 3em;
+    font-family: 'Fredericka the Great', cursive;
+    text-align: left;
+  }
+  
+  .text-panel h2 {
+    font-weight: 400;
+    font-size: 2.5em;
+    font-family: 'Lato', sans-serif;
+    text-align: left;
+  }
+  
+  .text-panel h3 {
+    font-weight: 300;
+    font-size: 2em;
+  }
+  
+  .text-panel p {
+    font-weight: 400;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .button {
+    height: 50px;
+    width: 160px;
+    border-radius: 10px;
+    color: white;
+    margin: 0 auto;
+    -webkit-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.5);
+    box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.5);
+  }
+  
+  .button-purchase {
+    background-color: #f06543;
+  }
+  
+  .button-hover {
+    background-color: #c05746;
+  }
+  
+  .button-info {
+    background-color: #384d48;
+  }
+  
+  .button-desc {
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    margin: 0 5%;
+  
+  }
+  
+  .button-desc.h3{
+    text-align: center;
+    color: #01161e;
+  }
+  
+  .button-text {
+    text-align: center;
+    padding-top: 12px;
+    font-weight: 700;
+  }
+  
