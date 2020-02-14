@@ -4,7 +4,10 @@ body {
     font-size: 16px;
     background-image: url("dot-grid.png"); 
     color: #250902;
-  
+  }
+
+  .logo {
+    margin: 10px;
   }
   /* Background pattern from Toptal Subtle Patterns */
   h1 {
