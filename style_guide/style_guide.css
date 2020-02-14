@@ -3,25 +3,25 @@ body {
     margin: 0 10%;
     font-size: 16px;
     background-image: url("dot-grid.png"); 
-    color: #01161e;
+    color: #250902;
   
   }
   /* Background pattern from Toptal Subtle Patterns */
   h1 {
-    font-family: "Space Mono", sans-serif;
+    font-family: 'Space Mono', monospace;
     text-align: center;
     font-size: 3em;
   }
   
   h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: center;
     font-size: 2.5em;
     line-height: 40px;
   }
   
   h3 {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-size: 2em;
     font-weight: 300;
   
@@ -33,7 +33,7 @@ body {
       background:url('img/flourish-lower.svg') no-repeat top center;
   }
   .container {
-    border: 8px solid #828a95;
+    border: 8px solid #bfc0c0;
     padding: 10px;
     margin: 10px auto;
     background-color: rgba(255, 255, 255, 0.5);
@@ -93,7 +93,6 @@ body {
     color: #f0f7ee;
   }
   
-  
   .z_brown {
     background-color: #250902;
     color: #f3f3f3;
@@ -108,7 +107,6 @@ body {
     background-color: #c05746;
     color: #f0f7ee;
   }
-  
   
   .narrow-container {
     width: 60%;
@@ -146,30 +144,25 @@ body {
     font-weight: 300;
   }
   
-  
-  
   .open-sans, li {
     font-family: 'Open Sans', sans-serif;
   }
   
-  .fredericka {
-    font-family: 'Fredericka the Great', cursive;
+  .space_mono {
+    font-family: 'Space Mono', monospace;
   }
   
-  .lato {
-    font-family: 'Lato', sans-serif;
-  }
   
   .text-panel h1 {
     font-size: 3em;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: 'Space Mono', monospace;
     text-align: left;
   }
   
   .text-panel h2 {
     font-weight: 400;
     font-size: 2.5em;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     text-align: left;
   }
   
@@ -181,14 +174,14 @@ body {
   .text-panel p {
     font-weight: 400;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
   }
   
   .button {
     height: 50px;
     width: 160px;
     border-radius: 10px;
-    color: white;
+    color: #250902;
     margin: 0 auto;
     -webkit-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.5);
     -moz-box-shadow: 2px 4px 5px 1px rgba(0,0,0,0.5);
@@ -196,15 +189,16 @@ body {
   }
   
   .button-purchase {
-    background-color: #f06543;
+    background-color: #ffca00;
   }
   
   .button-hover {
-    background-color: #c05746;
+    background-color: #ffa200;
   }
   
   .button-info {
-    background-color: #384d48;
+    background-color: #086788;
+    color: #f3f3f3;
   }
   
   .button-desc {
