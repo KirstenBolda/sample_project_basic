@@ -68,35 +68,40 @@ body {
     margin: 20px;
   }
   
-  
-  .honeydew {
-    background-color: #f0f7ee;
-    color: #01161e;
+  .anti_flash_white {
+    background-color: #f3f3f3;
+    color: #250902;
   }
   
-  .roman-silver {
-    background-color: #828a95;
+  .silver {
+    background-color: #bfc0c0;
+    color: #250902;
+  }
+
+  .yankees_blue {
+    background-color: #14213d;
+    color: #f3f3f3;
+  }
+  
+  .sea_blue {
+    background-color: #086788;
+    color: #f3f3f3;
+  }
+
+  .dk_green {
+    background-color: #012622;
     color: #f0f7ee;
   }
   
-  .arsenic {
-    background-color: #384d48;
-    color: #f0f7ee;
+  
+  .z_brown {
+    background-color: #250902;
+    color: #f3f3f3;
   }
   
-  .eagle-green {
-    background-color: #124559;
-    color: #f0f7ee;
-  }
-  
-  .rich-black {
-    background-color: #01161e;
-    color: #f0f7ee;
-  }
-  
-  .tomato {
-    background-color: #f06543;
-    color: #f0f7ee;
+  .usc_gold {
+    background-color: #ffca00;
+    color: #250902;
   }
   
   .cedar {
@@ -104,9 +109,6 @@ body {
     color: #f0f7ee;
   }
   
-  .font-container {
-  
-  }
   
   .narrow-container {
     width: 60%;
