@@ -93,13 +93,33 @@ body {
     background-image: url("img/special_offer.png");
     background-repeat: no-repeat;
     background-position: right;
-    height: 200px;
+    height: 400px;
     z-index: 2;
-   
+    width: 450px;
+    position: absolute;
+    right: 20px;
+    top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 
   .special_offer p {
-      color: green;
+    color: #250902;
+    font-family: "Space Mono", sans-serif;
+    font-weight: bold;
+    padding-bottom: 72px;
+    padding-left: 100px;
+  }
+
+  .special_offer span {
+    color: #250902;
+    font-family: "Space Mono", sans-serif;
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-left: 100px;
+    padding-bottom: 0px;
   }
   
   .offer_image {
