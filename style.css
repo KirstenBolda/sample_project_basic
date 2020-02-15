@@ -25,6 +25,7 @@ body {
       background-image: url("img/planet-placeholder.jpg");
       background-size: cover;
       height: 600px;
+      z-index: 0;
   }
 
   nav {
@@ -89,7 +90,16 @@ body {
   }
 
   .special_offer {
-      display: inline-block;
+    background-image: url("img/special_offer.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 200px;
+    z-index: 2;
+   
+  }
+
+  .special_offer p {
+      color: green;
   }
   
   .offer_image {
