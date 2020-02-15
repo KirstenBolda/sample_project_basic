@@ -68,6 +68,7 @@ body {
   h2 {
     font-family: "Space Mono", sans-serif;
     font-size: 2em;
+    margin: 10px;
   }
 
   h3 {
@@ -183,4 +184,25 @@ section {
     float: left;
     margin: 2% 14% 2% 2%;
     text-align: left;
+}
+
+.monthly_special {
+    background-image: url("img/meteor_showers.png");
+    background-size: cover;
+}
+
+.monthly_special h2, .monthly_special p {
+    color: #f3f3f3;
+    padding-top: 15px;
+}
+
+.monthly_special button {
+    margin-top: 8%;
+    margin-right: 15%;
+}
+.meteor_text {
+    width: 75%;
+    text-align: left;
+    float: left;
+    padding: 3% 10% 5% 10%;
 }
