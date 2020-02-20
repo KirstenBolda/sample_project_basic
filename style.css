@@ -26,16 +26,13 @@ body {
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-      
+      height: 600px;
       z-index: 0;
   }
 
-  header {
-      height: 600px;
-  }
 
   nav {
-      background-color: rgba(0,0,0, 0.8);
+      background-color: rgba(0,0,0, 0.9);
       height: 80px;
       width: 100%;
       position: fixed;
@@ -232,4 +229,17 @@ footer {
     padding: 30px 20px 0 0;
     float: right;
     
+}
+
+.destinos-rendition {
+    float: left;
+}
+
+figure {
+    margin-top: 100px;
+}
+
+.about {
+    padding-top: 100px;
+    height: 700px;
 }
