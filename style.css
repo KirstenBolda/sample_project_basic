@@ -149,7 +149,7 @@ section {
     min-height: 400px;
 }
 
- .tours {
+ .tours, .features {
     background-color: rgb(216, 216, 216);
 }
 
@@ -242,4 +242,13 @@ figure {
 .about {
     padding-top: 100px;
     height: 700px;
+}
+
+.reserve {
+    background-image: url("img/starry-lakeshore.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    z-index: 0;
 }
