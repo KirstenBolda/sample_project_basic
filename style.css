@@ -148,11 +148,8 @@ section {
     min-height: 400px;
 }
 
-
-
  .tours {
     background-color: rgb(216, 216, 216);
-    height: 520px;
 }
 
 .item {
@@ -165,6 +162,10 @@ section {
     width: 29.3%;
 	float: left;
 	margin: 2%;
+}
+
+.testimonial {
+    height: 500px;
 }
 
 .headshot {
@@ -211,4 +212,20 @@ section {
     text-align: left;
     float: left;
     padding: 3% 10% 5% 10%;
+}
+
+footer {
+    background-color: rgb(216, 216, 216);
+    height: 15rem;
+}
+.info {
+    width: 29.3%;
+	float: left;
+	margin: 2%;
+}
+
+.copyright {
+    padding: 30px 20px 0 0;
+    float: right;
+    
 }
