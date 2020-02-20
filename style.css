@@ -21,13 +21,17 @@ body {
       color: whitesmoke;
   }
 
-  header {
+  .hero {
       background-image: url("img/planet-placeholder.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
-      height: 600px;
+      
       z-index: 0;
+  }
+
+  header {
+      height: 600px;
   }
 
   nav {
