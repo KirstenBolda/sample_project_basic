@@ -24,6 +24,8 @@ body {
   header {
       background-image: url("img/planet-placeholder.jpg");
       background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
       height: 600px;
       z-index: 0;
   }
@@ -188,7 +190,11 @@ section {
 
 .monthly_special {
     background-image: url("img/meteor_showers.png");
-    background-size: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: black;
+    height: 420px;
 }
 
 .monthly_special h2, .monthly_special p {
