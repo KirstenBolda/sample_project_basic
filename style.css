@@ -245,10 +245,16 @@ figure {
 }
 
 .reserve {
-    background-image: url("img/starry-lakeshore.png");
+    background-image: url("img/offworld_citysunset.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    height: 800px;
     z-index: 0;
+}
+
+.credit {
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 1%;
 }
