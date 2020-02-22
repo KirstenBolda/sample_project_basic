@@ -200,19 +200,26 @@ section {
 }
 
 .monthly_special h2, .monthly_special p {
-    color: #f3f3f3;
-    padding-top: 15px;
+    color: #250902;
+    padding-top: 15px; 
+   
+}
+
+.meteor_padding {
+    padding-right: 350px;
 }
 
 .monthly_special button {
     margin-top: 8%;
     margin-right: 15%;
 }
+
 .meteor_text {
     width: 75%;
     text-align: left;
     float: left;
     padding: 3% 10% 5% 10%;
+    color: #250902;
 }
 
 footer {
