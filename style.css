@@ -245,7 +245,7 @@ figure {
 }
 
 .reserve {
-    background-image: url("img/offworld_citysunset.jpg");
+    background-image: url("img/destinos_lodging.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -257,4 +257,14 @@ figure {
     font-size: 12px;
     font-style: italic;
     padding-left: 1%;
+}
+
+.resorts {
+    width: 29.3%;
+	float: left;
+	margin: 2%;
+}
+
+.lodging {
+    width: 400px;
 }
