@@ -284,3 +284,14 @@ figure {
 .highlight_img {
     height: 180px;
 }
+
+.facts-background {
+    background-image: url("img/dot-grid.png");
+    height: 400px;
+    width: 90%;
+    margin: 10px auto;
+}
+
+.facts-image {
+    width: 380px;
+}
