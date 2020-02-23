@@ -276,6 +276,10 @@ figure {
 	margin: 2%;
 }
 
+.highlights {
+    background-color:  rgb(216, 216, 216);
+}
+
 .highlight {
    width: 20%; 
    float: left;
@@ -294,4 +298,26 @@ figure {
 
 .facts-image {
     width: 380px;
+}
+
+.blog {
+    height: 500px;
+    
+}
+.blog-excerpt {
+    width: 46%;
+	float: left;
+	margin: 2%;
+}
+
+.blog-excerpt p , .blog-excerpt h3 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+.blog_author_img {
+    height: 200px;
+    float: left;
+    border-radius: 100%;
+    margin-right: 30px;
 }
