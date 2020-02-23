@@ -146,14 +146,17 @@ section {
     margin: 0 auto;
     background-color: whitesmoke;
     text-align: center;
-    min-height: 400px;
 }
 
 section.tours { 
     height: 600px;
  }
 
- .tours, .features {
+ section.features {
+    height: 500px;
+ }
+
+ .tours {
     background-color: rgb(216, 216, 216);
 }
 
@@ -170,7 +173,7 @@ section.tours {
 }
 
 .testimonial {
-    height: 500px;
+    height: 300px;
 }
 
 .headshot {
@@ -214,8 +217,8 @@ section.tours {
 }
 
 .monthly_special button {
-    margin-top: 8%;
-    margin-right: 15%;
+    margin-top: 10px;
+    margin-right: 50px;
 }
 
 .meteor_text {
@@ -244,6 +247,7 @@ footer {
 
 .destinos-rendition {
     float: left;
+    padding: 40px;
 }
 
 figure {
@@ -253,6 +257,11 @@ figure {
 .about {
     padding-top: 100px;
     height: 700px;
+    text-align: left;
+}
+
+.about h1 {
+    font-family: "Space Mono", sans-serif;
 }
 
 .reserve {
@@ -278,6 +287,7 @@ figure {
 
 .highlights {
     background-color:  rgb(216, 216, 216);
+    height: 500px;
 }
 
 .highlight {
@@ -295,13 +305,15 @@ figure {
     width: 90%;
     margin: 10px auto;
 }
-
+.facts {
+    height: 600px;
+}
 .facts-image {
     width: 380px;
 }
 
 .blog {
-    height: 500px;
+    height: 300px;
     
 }
 .blog-excerpt {
