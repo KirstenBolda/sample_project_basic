@@ -149,6 +149,10 @@ section {
     min-height: 400px;
 }
 
+section.tours { 
+    height: 600px;
+ }
+
  .tours, .features {
     background-color: rgb(216, 216, 216);
 }
@@ -201,7 +205,7 @@ section {
 
 .monthly_special h2, .monthly_special p {
     color: #250902;
-    padding-top: 15px; 
+    padding-top: 15px;
    
 }
 
@@ -272,4 +276,11 @@ figure {
 	margin: 2%;
 }
 
+.highlight {
+   width: 20%; 
+   float: left;
+}
 
+.highlight_img {
+    height: 180px;
+}
