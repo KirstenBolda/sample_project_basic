@@ -1,4 +1,15 @@
-/* 
+/* 1. Global Styles
+======================================== */
+
+/* Site Stylesheet
+  1. Global Styles
+  2. Typography Styles
+  3. Structure Styles
+  4. Module Styles
+  5. Component Styles
+======================================== */
+
+/*
   Basic reset including border-box implementation
 */
 * {
@@ -7,7 +18,6 @@
     box-sizing: border-box;
 }
 
-
 body {
     /* Old browsers */
     background: whitesmoke;
@@ -15,85 +25,129 @@ body {
     padding: 0;
     font-family: 'Open Sans', sans-serif;
     color: black;
-  }
+}
 
-   nav a {
-      color: whitesmoke;
-  }
+/* 2. Typography Styles
+  ======================================== */
 
-  .hero {
-      background-image: url("img/destinos_frontpage2.jpg");
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: center;
-      height: 600px;
-      z-index: 0;
-  }
+h1 {
+    font-size: 60px;
+    letter-spacing: 1px;
+}
 
-
-  nav {
-      background-color: rgba(0,0,0, 0.9);
-      height: 80px;
-      width: 100%;
-      position: fixed;
-  }
-
-  header h1 {
-      text-align: center;
-      padding-top: 180px;
-      font-family: "Space Mono", sans-serif;
-      color: whitesmoke;
-  }
-
-  nav li {
-      float: right;
-      list-style: none;
-      margin: 20px;
-      font-family: "Space Mono", sans-serif;
-      font-size: 1.2em;
-  }
-
-  li a {
-    display: block;
-    padding: 8px;
-    
-  }
-
-  li a:hover {
-      color: rgb(249, 139, 80);
-  }
-
-  h1 {
-      font-size: 60px;
-      letter-spacing: 1px;
-  }
-
-  h2 {
+h2 {
     font-family: "Space Mono", sans-serif;
     font-size: 2em;
     margin: 10px;
-  }
+}
 
-  h3 {
-    font-size: 1.6em; 
-  }
+h3 {
+    font-size: 1.6em;
+}
 
-  .tag-line {
+header h1 {
+    text-align: center;
+    padding-top: 180px;
+    font-family: "Space Mono", sans-serif;
+    color: whitesmoke;
+}
+
+nav a {
+    color: whitesmoke;
+}
+
+li a {
+    display: block;
+    padding: 8px;
+}
+
+li a:hover {
+    color: rgb(249, 139, 80);
+}
+
+.tag-line {
     font-size: 32px;
     text-align: center;
     color: whitesmoke;
-  }
+}
 
-  .logo {
-      float: left;
-  }
+.about h1 {
+    font-family: "Space Mono", sans-serif;
+}
 
-  .cta {
-      text-align: center;
-      margin-top: 20px;
-  }
+.monthly_special h2,
+.monthly_special p {
+    color: #250902;
+    padding-top: 15px;
 
-  .special_offer {
+}
+
+.credit {
+    font-size: 12px;
+    font-style: italic;
+    padding-left: 1%;
+}
+
+.blog-excerpt p,
+.blog-excerpt h3 {
+    text-align: left;
+    padding-left: 10px;
+}
+
+/* 3. Structure Styles
+  ======================================== */
+
+
+  /* 4. Modules Styles
+  ======================================== */
+  
+  /* Site Navigation */
+  nav {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+
+nav li {
+    float: right;
+    list-style: none;
+    margin: 20px;
+    font-family: "Space Mono", sans-serif;
+    font-size: 1.2em;
+}
+
+/* Site Footer */
+footer {
+    background-color: rgb(216, 216, 216);
+    height: 15rem;
+}
+
+
+.info {
+    width: 29.3%;
+    float: left;
+    margin: 2%;
+}
+
+.copyright {
+    padding: 30px 20px 0 0;
+    float: right;
+
+}
+/* 5. Component Styles
+  ======================================== */
+
+.logo {
+    float: left;
+}
+
+.cta {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.special_offer {
     background-image: url("img/special_offer.png");
     background-repeat: no-repeat;
     background-position: right;
@@ -107,39 +161,39 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .special_offer p {
+.special_offer p {
     color: #250902;
     font-family: "Space Mono", sans-serif;
     font-weight: bold;
     padding-bottom: 72px;
     padding-left: 100px;
-  }
+}
 
-  .special_offer span {
+.special_offer span {
     color: #250902;
     font-family: "Space Mono", sans-serif;
     font-weight: bold;
     font-size: 1.1em;
     padding-left: 100px;
     padding-bottom: 0px;
-  }
-  
-  .offer_image {
-      position: absolute;
-      top: 230px;
-      right: 2%;
-  }
+}
 
-  button {
-      padding: 0 20px;
-      background-color: rgb(211, 211, 211);
-      line-height: 2.5;
-      font-family: Arial, Helvetica, sans-serif;
-      font-size: 16px;
-      margin: 20px;
-  }
+.offer_image {
+    position: absolute;
+    top: 230px;
+    right: 2%;
+}
+
+button {
+    padding: 0 20px;
+    background-color: rgb(211, 211, 211);
+    line-height: 2.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+}
 
 section {
     width: 100%;
@@ -148,28 +202,28 @@ section {
     text-align: center;
 }
 
-section.tours { 
+section.tours {
     height: 600px;
- }
+}
 
- section.features {
+section.features {
     height: 500px;
- }
+}
 
- .tours {
+.tours {
     background-color: rgb(216, 216, 216);
 }
 
 .item {
     width: 23%;
-	float: left;
-	margin: 1%;
+    float: left;
+    margin: 1%;
 }
 
 .trip {
     width: 29.3%;
-	float: left;
-	margin: 2%;
+    float: left;
+    margin: 2%;
 }
 
 .testimonial {
@@ -188,7 +242,8 @@ section.tours {
 }
 
 .clear {
-    clear: left;}
+    clear: left;
+}
 
 .quote {
     width: 60%;
@@ -204,12 +259,6 @@ section.tours {
     background-position: center;
     background-color: black;
     height: 420px;
-}
-
-.monthly_special h2, .monthly_special p {
-    color: #250902;
-    padding-top: 15px;
-   
 }
 
 .meteor_padding {
@@ -229,22 +278,6 @@ section.tours {
     color: #250902;
 }
 
-footer {
-    background-color: rgb(216, 216, 216);
-    height: 15rem;
-}
-.info {
-    width: 29.3%;
-	float: left;
-	margin: 2%;
-}
-
-.copyright {
-    padding: 30px 20px 0 0;
-    float: right;
-    
-}
-
 .destinos-rendition {
     float: left;
     padding: 40px;
@@ -260,10 +293,6 @@ figure {
     text-align: left;
 }
 
-.about h1 {
-    font-family: "Space Mono", sans-serif;
-}
-
 .reserve {
     background-image: url("img/destinos_lodging.png");
     background-size: cover;
@@ -273,26 +302,20 @@ figure {
     z-index: 0;
 }
 
-.credit {
-    font-size: 12px;
-    font-style: italic;
-    padding-left: 1%;
-}
-
 .resorts {
     width: 29.3%;
-	float: left;
-	margin: 2%;
+    float: left;
+    margin: 2%;
 }
 
 .highlights {
-    background-color:  rgb(216, 216, 216);
+    background-color: rgb(216, 216, 216);
     height: 500px;
 }
 
 .highlight {
-   width: 20%; 
-   float: left;
+    width: 20%;
+    float: left;
 }
 
 .highlight_img {
@@ -305,31 +328,42 @@ figure {
     width: 90%;
     margin: 10px auto;
 }
+
 .facts {
     height: 600px;
 }
+
 .facts-image {
     width: 380px;
 }
 
 .blog {
     height: 300px;
-    
-}
-.blog-excerpt {
-    width: 46%;
-	float: left;
-	margin: 2%;
+
 }
 
-.blog-excerpt p , .blog-excerpt h3 {
-    text-align: left;
-    padding-left: 10px;
+.blog-excerpt {
+    width: 46%;
+    float: left;
+    margin: 2%;
 }
+
 
 .blog_author_img {
     height: 200px;
     float: left;
     border-radius: 100%;
     margin-right: 30px;
+}
+
+/* 6. Page Styles
+  ======================================== */
+
+.hero {
+    background-image: url("img/destinos_frontpage2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 600px;
+    z-index: 0;
 }
