@@ -104,9 +104,10 @@ li a:hover {
   /* Site Navigation */
   nav {
     background-color: rgba(0, 0, 0, 0.9);
-    height: 5em;
-    width: 100%;
+    padding-top: .5em;
+	padding-bottom: .5em;
     position: fixed;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -202,13 +203,33 @@ footer {
 }
 
 button {
-    padding: 0 20px;
-    background-color: rgb(211, 211, 211);
-    line-height: 2.5;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    margin: 20px;
+    border: 1px solid #250902;
+	box-shadow: 0px 10px 14px -7px #250902;
+	background:linear-gradient(to bottom, #ffca00 5%,#cac3a6 100%);
+	background-color:#ffca00;
+	border-radius:3px;
+	display:inline-block;
+	cursor:pointer;
+	font-family: "Open Sans", sans-serif;
+	font-size:20px;
+	font-weight:bold;
+    padding:13px 32px;
+    margin: 10px;
 }
+
+button a {
+    color: #250902;
+    text-decoration: none;
+}
+button:hover {
+	background:linear-gradient(to bottom, #cac3a6 5%,#ffca00 100%);
+	background-color:#cac3a6;
+}
+button:active {
+	position:relative;
+	top:1px;
+}
+
 
 section {
     width: 100%;
@@ -386,17 +407,22 @@ figure {
 /* 7. Media Queries
   ======================================== */
 
+  /* created with help from : https://codepen.io/samnorton/pen/zBYMJG */
+
   @media (max-width: 769px) {
 	nav {
 		display: flex;
         flex-direction: column;
         justify-content: center;
-        padding: 0 5%;
+        align-items: center;
+        width: 60%;
+        
 	}
 	nav ul {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
         justify-content: center;
+        align-items: center;
     }
     
 
