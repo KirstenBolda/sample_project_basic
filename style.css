@@ -112,6 +112,7 @@ li a:hover {
     flex-direction: row;
     justify-content: space-between;
     padding: 0 5%;
+    
 }
 
 .logo {
@@ -415,7 +416,6 @@ figure {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        width: 60%;
         
 	}
 	nav ul {
