@@ -425,4 +425,7 @@ figure {
         align-items: center;
     }
 
+    .trip, .item {
+        width: 100%;
+    }
 }
