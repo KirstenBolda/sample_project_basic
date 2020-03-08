@@ -402,7 +402,8 @@ figure {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 600px;
+    background-attachment: fixed;
+    height: 800px;
     z-index: 0;
 }
 
